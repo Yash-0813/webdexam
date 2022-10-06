@@ -84,31 +84,31 @@
     /* border: 2px solid green; */  
 }
 
-#client-section{
-    height: 344px;
-    position: relative;
-}
-#client-section::before{
-    content: "";
-    position: absolute;
-    background: url('mountains.jpg');
+.third{
+    /* height: 50vh; */
     width: 100%;
-    height: 100%;
-    z-index: -1;
-    opacity: 0.6;
-}
-#clients{
+    background-image: url("sectionc.jpg");
+    background-size: cover;
+    display: flex;
     justify-content: center;
     align-items: center;
-    display: flex;
+    flex-direction: column;
+    padding: 70px 100px;
 }
-#clients img{
-    height: 50%;
-    width: 100%;
+.third h2{
+    color:#29d9d5;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 20px;
+    text-shadow: 0px 0px 3px cadetblue;
 }
-.client-item{
-    padding: 34px;
+.third h1{
+    font-size: 70px;
+    text-shadow: 2px 2px 3px black;
 }
-.client-section h1{
+.third p{
     text-align: center;
+    font-size: 23px;
+    padding: 10px;
+    opacity: 0.7;
 }
